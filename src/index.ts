@@ -5,13 +5,13 @@ let indice: number;
 
 for (indice = 0; indice < 6; indice++) {
   vector1[indice] = Number(
-    prompt("ingrese el valor de Vector1[", indice, "]:")
+    prompt("ingrese el valor de Vector1[" + indice + "]:")
   );
 }
 
 for (indice = 0; indice < 6; indice++) {
   vector2[indice] = Number(
-    prompt("ingrese el valor de Vector2[", indice, "]:")
+    prompt("ingrese el valor de Vector2[" + indice + "]:")
   );
 }
 
